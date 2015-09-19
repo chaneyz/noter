@@ -19727,22 +19727,10 @@ var App = React.createClass({
         return React.createElement(
             "h1",
             null,
-            "Hello Working"
+            "Hello World"
         );
     }
 });
-
-var App = React.createClass({
-    displayName: "App",
-    render: function render() {
-        return React.createElement(
-            "h1",
-            null,
-            "Hello Work"
-        );
-    }
-});
-
 
 React.render(React.createElement(App, null), document.getElementById("example"));
 
